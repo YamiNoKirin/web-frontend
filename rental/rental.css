@@ -1,0 +1,27 @@
+.rent-item {
+	height: 250px;
+	border-radius: 5px;
+	background-color: #d8d2c9;
+	padding: 20px;
+	margin: 20px;
+	position: relative;
+	/*float: left;*/
+}
+
+.rent-item img {
+	border-radius: 5px;
+	margin-right: 20px;
+	float: left;
+}
+
+.rent-item a.details {
+	position: absolute;
+	bottom: 35px;
+	right: 150px;
+}
+
+.rent-item a.inquire {
+	position: absolute;
+	bottom: 35px;
+	right: 50px;
+}
