@@ -1,0 +1,11 @@
+.gallery-img {
+	margin: 5px;
+	float: left;
+	padding: 20px;
+	width: 450px;
+	height: 350px;
+	background-image: url("res/house.jpg");
+	background-size: 500px 400px;
+	border-radius: 25px;
+	border: 2px solid white;
+}

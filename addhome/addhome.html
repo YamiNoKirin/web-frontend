@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rentals</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="addhome.css">
+	<script src="addhome.js"></script>
+</head>
+<body>
+	<div class="navbar-flex-container">
+		<div> <a href="../index.html"> Home </a> </div>
+		<div> <a href="../rental/rental.html"> Rent a Home </a> </div>
+		<div> <a href="addhome.html"> Add Your Home </a> </div>
+		<div> <a href="../contact/contact.html"> Contact </a> </div>
+	</div>
+
+	<br>
+
+	<div class="form-area">
+		<form>
+			<label for="fname"> First Name </label>
+			<input type="text" id="fname" name="firstname">
+
+			<label for="lname"> Last Name </label>
+			<input type="text" id="lname" name="lastname">
+
+			<label for="addr"> Address </label>
+			<input type="text" id="addr" name="address">
+
+			<label for="img" class="file-up"> Upload Image </label>
+			<input type="file" id="img" name="image">
+
+			<button onclick="submithome()"> Submit </button>
+		</form>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="contact.js"></script>
+</head>
+<body>
+	<div class="navbar-flex-container">
+		<div> <a href="../index.html"> Home </a> </div>
+		<div> <a href="../rental/rental.html"> Rent a Home </a> </div>
+		<div> <a href="../addhome/addhome.html"> Add Your Home </a> </div>
+		<div> <a href="contact.html"> Contact </a> </div>
+	</div>
+
+	<br>
+
+	<div class="form-area">
+		<form>
+			<label for="fname"> First Name </label>
+			<input type="text" id="fname" name="firstname">
+
+			<label for="lname"> Last Name </label>
+			<input type="text" id="lname" name="lastname">
+
+			<label for="mail"> E-mail </label>
+			<input type="text" id="mail" name="address">
+
+			<label for="content"> Write us a message! </label>
+			<textarea class="large-text-box"></textarea>
+
+			<button onclick="submitmessage()"> Submit </button>
+		</form>
+	</div>
+</body>
+</html>
