@@ -4,6 +4,7 @@
 	<title>Rentals</title>
 	<link rel="stylesheet" type="text/css" href="../style.css">
 	<link rel="stylesheet" type="text/css" href="rental.css">
+	<script src="rental.js"></script>
 </head>
 <body>
 	<div class="navbar-flex-container">
@@ -15,29 +16,24 @@
 
 	<br>
 
+	<div class="sort">
+		Sort by:
+		<select id="sort-sel">
+			<option value="asc-name"> Ascending name </option>
+			<option value="desc-name"> Descending name </option>
+			<option value="asc-addr"> Ascending address </option>
+			<option value="desc-addr"> Descending address </option>
+		</select>
+
+		<button onclick="location.reload()"> Sort </button>
+	</div>
+<!-- 
 	<div class="rent-item">
-		<img src="../res/house.jpg" width="30%">
+		<img src="../res/house.jpg">
 		<h2> Strada George Enescu, Bloc A23, Scara 1, Apartament 12 </h2>
 		<h4> Listed by: Andrei Popescu </h4>
-		<a href="../contact/contact.html" class="details"> Details </a>
+		<button class="delete" onclick="deleteHome()"> Delete </button>
 		<a href="../contact/contact.html" class="inquire"> Inquire </a>
-	</div>
-
-	<div class="rent-item">
-		<img src="../res/house.jpg" width="30%">
-		<h2> Strada George Enescu, Bloc A23, Scara 1, Apartament 12 </h2>
-		<h4> Listed by: Andrei Popescu </h4>
-		<a href="../contact/contact.html" class="details"> Details </a>
-		<a href="../contact/contact.html" class="inquire"> Inquire </a>
-	</div>
-
-	<div class="rent-item">
-		<img src="../res/house.jpg" width="30%">
-		<h2> Strada George Enescu, Bloc A23, Scara 1, Apartament 12 </h2>
-		<h4> Listed by: Andrei Popescu </h4>
-		<a href="../contact/contact.html" class="details"> Details </a>
-		<a href="../contact/contact.html" class="inquire"> Inquire </a>
-	</div>
-
+	</div> -->
 </body>
 </html>

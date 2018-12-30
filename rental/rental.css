@@ -5,16 +5,17 @@
 	padding: 20px;
 	margin: 20px;
 	position: relative;
-	/*float: left;*/
 }
 
 .rent-item img {
 	border-radius: 5px;
 	margin-right: 20px;
 	float: left;
+	max-width: 30%;
+	max-height: 100%;
 }
 
-.rent-item a.details {
+.rent-item button.delete {
 	position: absolute;
 	bottom: 35px;
 	right: 150px;
@@ -24,4 +25,13 @@
 	position: absolute;
 	bottom: 35px;
 	right: 50px;
+}
+
+div.sort {
+	border-radius: 5px;
+	background-color: #d8d2c9;
+	max-width: 270px;
+	padding: 10px;
+	margin: 20px;
+	position: relative;
 }
